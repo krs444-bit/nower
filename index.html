@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nowere</title>
+    <style>
+        /* Подключаем ваш шрифт из той же папки */
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('12.ttf') format('truetype');
+            font-display: swap;
+        }
+
+        /* Настраиваем страницу: белый фон, убираем отступы */
+        body {
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        /* Размещаем надпись в левом верхнем углу */
+        .text-container {
+            position: absolute;
+            top: 20px; /* Отступ от верхнего края */
+            left: 20px; /* Отступ от левого края */
+            font-family: 'MyCustomFont', sans-serif;
+            font-size: 48px; /* Размер надписи (можно изменить) */
+            color: #000000; /* Цвет текста (черный) */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-container">nowere</div>
+
+</body>
+</html>
